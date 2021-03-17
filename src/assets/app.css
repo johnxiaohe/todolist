@@ -1,0 +1,88 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    margin-top: 10px;
+    background: white;
+  }
+
+#title {
+  /* text-align: center; */
+  font-size: 80px;
+  color: #F56C6C;
+  margin-left: 45%;
+}
+
+input {
+  /* float: left; */
+  border: 0px;
+  width: 90%;
+  height: 100%;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  border: none;
+  outline: none;
+  padding: 0px;
+  color: #4040448e;
+}
+#listbtn {
+  float: left;
+  width: 10%;
+  height: 100%;
+  border: none;
+  background: white;
+  outline: none;
+  padding: 0px;
+  cursor: pointer;
+}
+#listbtn:hover {
+  background: rgba(88, 87, 87, 0.267);
+}
+
+#top {
+  background-color: ghostwhite;
+  width: 100%;
+  height: 10%;
+}
+#allbox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 800px;
+  width: 1000px;
+  margin: auto;
+}
+
+#todos {
+  height: 80%;
+  width: 100%;
+  background: white;
+  border-top: 1px;
+}
+
+.todos-for {
+  height: 80px;
+  width: 100%;
+  font-size: 30px;
+}
+
+#follor {
+  /* float: left; */
+  width: 100%;
+  height:10%;
+  background: white;
+  font-size: 20px;
+  padding: 35px;
+  box-sizing: border-box;
+
+}
+
+.follor-num {
+  float: left;
+  width: 270px;
+}
+
+.follor-btn {
+  margin-left: 30px;
+  cursor: pointer;
+}
